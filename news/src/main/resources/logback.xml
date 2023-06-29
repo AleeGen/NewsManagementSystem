@@ -1,0 +1,9 @@
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="ru.clevertec.news.controller" level="INFO"/>
+    <logger name="ru.clevertec.news.service.impl" level="INFO"/>
+    <logger name="ru.clevertec.news.service.util" level="INFO"/>
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>

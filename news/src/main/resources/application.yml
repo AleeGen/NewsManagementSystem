@@ -1,0 +1,26 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: news-service
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+client:
+  users-service:
+    url: http://localhost:8081/
+ru:
+  clevertec:
+    logging:
+      enabled: true
+    exception-handler:
+      enabled: true

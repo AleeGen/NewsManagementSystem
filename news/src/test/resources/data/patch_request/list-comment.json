@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "time": [
+      2023,
+      1,
+      1,
+      0,
+      0
+    ],
+    "username": "username",
+    "text": "text",
+    "news": {
+      "id": 1,
+      "time": [
+        2023,
+        1,
+        1,
+        0,
+        0
+      ],
+      "title": "title",
+      "text": "text",
+      "comments": []
+    }
+  },
+  {
+    "id": 1,
+    "time": [
+      2023,
+      1,
+      1,
+      0,
+      0
+    ],
+    "username": "username",
+    "text": "text",
+    "news": {
+      "id": 1,
+      "time": [
+        2023,
+        1,
+        1,
+        0,
+        0
+      ],
+      "title": "title",
+      "text": "text",
+      "comments": []
+    }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "username": "leon",
+    "roles": [
+      "ADMIN"
+    ],
+    "firstname": "alexey",
+    "lastname": "leonenko",
+    "email": "leshaleonenko@mail.ru"
+  },
+  {
+    "username": "maks",
+    "roles": [
+      "JOURNALIST"
+    ],
+    "firstname": "maksim",
+    "lastname": "ivanov",
+    "email": "maksimivanov@gmail.com"
+  },
+  {
+    "username": "dima",
+    "roles": [
+      "SUBSCRIBER"
+    ],
+    "firstname": "dmitriy",
+    "lastname": "petrov",
+    "email": "dimapetrov@gmail.com"
+  }
+]

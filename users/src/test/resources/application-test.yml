@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+  liquibase:
+    enabled: false
+  datasource:
+    username: test
+    password: test
+  cache:
+    enabled: false
+ru:
+  clevertec:
+    cache:
+      enabled: false

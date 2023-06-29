@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+  liquibase:
+    enabled: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/news
+    username: postgres
+    password: postgres
+  cache:
+    enabled: false
+ru:
+  clevertec:
+    cache:
+      enabled: true
+      capacity: 10
+      algorithm: lfu

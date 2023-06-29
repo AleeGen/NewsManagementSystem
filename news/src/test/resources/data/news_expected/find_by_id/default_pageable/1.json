@@ -1,0 +1,79 @@
+{
+  "id": 1,
+  "username": "username-1",
+  "time": "2023-11-04T14:23:53:276",
+  "title": "Title-1",
+  "text": "cumnqnsgwpcfqvryktmmuqfcjxmplizoejuxulmqszpzcbikhydysjuwndfgckpnofvx",
+  "comments": [
+    {
+      "id": 1,
+      "time": "2023-11-06T07:40:55:089",
+      "username": "username-30",
+      "text": "mztaapoikwykqmogfmrgeokxfbfmoultfnnd",
+      "newsId": 1
+    },
+    {
+      "id": 2,
+      "time": "2023-11-21T04:09:01:697",
+      "username": "username-31",
+      "text": "gbcnfsxiufuxgfszqkpgfwbmwuejolnfewc",
+      "newsId": 1
+    },
+    {
+      "id": 3,
+      "time": "2023-11-25T07:42:40:859",
+      "username": "username-2",
+      "text": "sgkjkozyojkmwhikxgjmhdotqhl",
+      "newsId": 1
+    },
+    {
+      "id": 4,
+      "time": "2023-11-26T18:45:52:490",
+      "username": "username-32",
+      "text": "mxhecaobzfmsxvsgwbqqafkjqzmtuppslyilctlqhuqaalgfj",
+      "newsId": 1
+    },
+    {
+      "id": 5,
+      "time": "2023-11-27T11:47:22:918",
+      "username": "username-3",
+      "text": "urculuypwyifdmzdsuzrhyivwpn",
+      "newsId": 1
+    },
+    {
+      "id": 6,
+      "time": "2023-11-04T11:22:37:632",
+      "username": "username-12",
+      "text": "lsenfgllmeficaournhjuebyntvixsud",
+      "newsId": 1
+    },
+    {
+      "id": 7,
+      "time": "2023-11-05T03:34:24:015",
+      "username": "username-13",
+      "text": "cnquxmapvvhwcmvcsgwqgkhmhxlztykac",
+      "newsId": 1
+    },
+    {
+      "id": 8,
+      "time": "2023-11-22T14:58:36:895",
+      "username": "username-11",
+      "text": "qsynrklreqyqprxyceiigyptdksijpidqjmbyvtthyff",
+      "newsId": 1
+    },
+    {
+      "id": 9,
+      "time": "2023-11-25T15:42:04:539",
+      "username": "username-47",
+      "text": "cqldjqipakfsryrhshjbyjttdf",
+      "newsId": 1
+    },
+    {
+      "id": 10,
+      "time": "2023-11-05T15:32:48:767",
+      "username": "username-8",
+      "text": "qpwlihjjxnyvntvtmggxpigblqw",
+      "newsId": 1
+    }
+  ]
+}

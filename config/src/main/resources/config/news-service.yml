@@ -1,0 +1,21 @@
+spring:
+  liquibase:
+    enabled: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://news-db:5432/news
+    username: postgres
+    password: postgres
+  cache:
+    type: redis
+  data:
+    redis:
+      host: redis
+      port: 6379
+client:
+  users-service:
+    url: http://users-service:8081/
+ru:
+  clevertec:
+    cache:
+      enabled: false

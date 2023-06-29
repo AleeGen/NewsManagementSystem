@@ -1,0 +1,79 @@
+{
+  "id": 13,
+  "username": "username-3",
+  "time": "2023-07-20T12:49:18:359",
+  "title": "Title-13",
+  "text": "pcggrwugmpnrhijnwoidqzdxullkkwymserhybsuemdacenccgbmfwenntppiklxfkkmoahrowxszwgiinlzrepa",
+  "comments": [
+    {
+      "id": 121,
+      "time": "2023-10-16T11:22:44:177",
+      "username": "username-45",
+      "text": "ozudvxliqzvfpfwbpjjvmgvj",
+      "newsId": 13
+    },
+    {
+      "id": 122,
+      "time": "2023-11-05T01:58:45:888",
+      "username": "username-43",
+      "text": "hrkuptxkbcwtssjavvhwqizzzrothkjys",
+      "newsId": 13
+    },
+    {
+      "id": 123,
+      "time": "2023-10-25T21:55:57:727",
+      "username": "username-24",
+      "text": "ljteuuyponnodfcdpsbkgdbusiqdfeyaehqelxcjvbgl",
+      "newsId": 13
+    },
+    {
+      "id": 124,
+      "time": "2023-11-26T05:50:25:330",
+      "username": "username-35",
+      "text": "tfckkfwenabhrxtrbtmqspxxzvwszlzqssyxqjcpbncm",
+      "newsId": 13
+    },
+    {
+      "id": 125,
+      "time": "2023-07-20T06:28:30:145",
+      "username": "username-0",
+      "text": "zjlfuhppxvhsddcdfdmlhcstopskwouph",
+      "newsId": 13
+    },
+    {
+      "id": 126,
+      "time": "2023-08-08T06:27:23:118",
+      "username": "username-21",
+      "text": "dibhkoxvsfigegxtlpiujfatjmonpmmvkeiomfrmx",
+      "newsId": 13
+    },
+    {
+      "id": 127,
+      "time": "2023-10-03T04:21:23:502",
+      "username": "username-40",
+      "text": "bjwmmdicmxjchupkvnpgtmzvyprb",
+      "newsId": 13
+    },
+    {
+      "id": 128,
+      "time": "2023-10-13T16:40:07:090",
+      "username": "username-14",
+      "text": "bocevfhhrvtarmojdpaiwiulbaagherxzhpknbanopc",
+      "newsId": 13
+    },
+    {
+      "id": 129,
+      "time": "2023-09-21T08:32:32:080",
+      "username": "username-22",
+      "text": "pjmkfwvklvkubpmuuzfqu",
+      "newsId": 13
+    },
+    {
+      "id": 130,
+      "time": "2023-09-21T02:40:44:931",
+      "username": "username-36",
+      "text": "vsleimueogrlmgslshprbxcfhedfxhtnvgkdueph",
+      "newsId": 13
+    }
+  ]
+}

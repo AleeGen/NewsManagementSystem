@@ -1,0 +1,65 @@
+plugins {
+    id 'jacoco'
+    id 'java-library'
+    id 'maven-publish'
+    id "io.freefair.lombok" version "8.0.1"
+}
+
+group = 'ru.clevertec'
+version = '1.0'
+sourceCompatibility = '20'
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+}
+
+jar {
+    manifest {
+        attributes('Name': project.name, 'Version': project.version)
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+ext {
+    V = '3.0.6'
+}
+
+dependencies {
+    implementation "org.springframework.boot:spring-boot-starter-aop:${V}"
+    implementation "org.springframework.boot:spring-boot-starter-web:${V}"
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor:${V}"
+    testImplementation "org.springframework.boot:spring-boot-starter-test:${V}"
+}
+
+jacoco {
+    toolVersion = "0.8.10"
+}
+
+tasks.named('test') {
+    finalizedBy(jacocoTestReport)
+    useJUnitPlatform()
+}
+
+tasks.named("jacocoTestReport") {
+    jacocoTestReport {
+        reports {
+            xml.required = false
+            csv.required = false
+            html.outputLocation = layout.buildDirectory.dir('jacocoHtml')
+        }
+    }
+}
+
+tasks.named('build') {
+    finalizedBy('publishToMavenLocal')
+}

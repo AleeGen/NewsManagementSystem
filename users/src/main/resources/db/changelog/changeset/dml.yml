@@ -1,0 +1,45 @@
+databaseChangeLog:
+  - changeSet:
+        id: 1
+        author: alexey
+        changes:
+          - loadData:
+              tableName: role
+              schemaName: custom_schema
+              file: db/changelog/data/role.csv
+              separator: ','
+              columns:
+                - column:
+                    name: role
+                    type: string
+  - changeSet:
+      id: 2
+      author: alexey
+      changes:
+        - loadData:
+            tableName: users
+            schemaName: custom_schema
+            file: db/changelog/data/users.csv
+            separator: ','
+            columns:
+              - column:
+                  name: username
+                  type: string
+              - column:
+                  name: password
+                  type: string
+              - column:
+                  name: role
+                  type: string
+              - column:
+                  name: firstname
+                  type: string
+              - column:
+                  name: lastname
+                  type: string
+              - column:
+                  name: email
+                  type: string
+              - column:
+                  name: text
+                  type: string

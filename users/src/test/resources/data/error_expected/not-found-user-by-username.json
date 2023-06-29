@@ -1,0 +1,4 @@
+{
+  "message": "User with username = username not found",
+  "status": 404
+}

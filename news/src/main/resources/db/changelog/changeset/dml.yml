@@ -1,0 +1,41 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: alexey
+      changes:
+        - loadData:
+            tableName: news
+            schemaName: custom_schema
+            file: db/changelog/data/news.csv
+            separator: ','
+            columns:
+              - column:
+                  name: username
+                  type: string
+              - column:
+                  name: time
+                  type: timestamp
+              - column:
+                  name: title
+                  type: string
+              - column:
+                  name: text
+                  type: string
+        - loadData:
+            tableName: comment
+            schemaName: custom_schema
+            file: db/changelog/data/comment.csv
+            separator: ','
+            columns:
+              - column:
+                  name: time
+                  type: timestamp
+              - column:
+                  name: username
+                  type: string
+              - column:
+                  name: text
+                  type: string
+              - column:
+                  name: news_id
+                  type: bigint

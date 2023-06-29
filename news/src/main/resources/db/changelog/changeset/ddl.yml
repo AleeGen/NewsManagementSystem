@@ -1,0 +1,80 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: alexey
+      changes:
+        - sql:
+            sql: "CREATE SCHEMA IF NOT EXISTS custom_schema"
+  - changeSet:
+      id: 2
+      author: alexey
+      changes:
+        - createTable:
+            tableName: news
+            schemaName: custom_schema
+            columns:
+              - column:
+                  name: id
+                  type: bigserial
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: username
+                  type: varchar
+                  constraints:
+                    nullable: false
+              - column:
+                  name: time
+                  type: timestamp
+                  constraints:
+                    nullable: false
+              - column:
+                  name: title
+                  type: varchar(70)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: text
+                  type: varchar(1000)
+                  constraints:
+                    nullable: false
+  - changeSet:
+      id: 3
+      author: alexey
+      changes:
+        - createTable:
+            tableName: comment
+            schemaName: custom_schema
+            columns:
+              - column:
+                  name: id
+                  type: bigserial
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: time
+                  type: timestamp
+                  constraints:
+                    nullable: false
+              - column:
+                  name: username
+                  type: varchar
+                  constraints:
+                    nullable: false
+              - column:
+                  name: text
+                  type: varchar(200)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: news_id
+                  type: bigint
+                  constraints:
+                    nullable: false
+                    deleteCascade: true
+                    foreignKeyName: comment_news_fk
+                    referencedTableName: news
+                    referencedTableSchemaName: custom_schema
+                    referencedColumnNames: id

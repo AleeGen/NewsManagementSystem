@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+  liquibase:
+    enabled: true
+  datasource:
+    url: jdbc:postgresql://localhost:5433/users
+    username: postgres
+    password: postgres
+  cache:
+    enabled: false
+ru:
+  clevertec:
+    cache:
+      enabled: true
+      capacity: 10
+      algorithm: lfu

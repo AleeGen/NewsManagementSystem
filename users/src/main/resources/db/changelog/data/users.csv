@@ -1,0 +1,4 @@
+username,password,role,firstname,lastname,email
+leon,$2a$10$N69ySDiY.93aieQw4eGl4.Q8EAmuri/u7QfZiWOaDcrY76aij9/r6,ADMIN,alexey,leonenko,leshaleonenko@mail.ru
+maks,$2a$10$N69ySDiY.93aieQw4eGl4.Q8EAmuri/u7QfZiWOaDcrY76aij9/r6,JOURNALIST,maksim,ivanov,maksimivanov@gmail.com
+dima,$2a$10$N69ySDiY.93aieQw4eGl4.Q8EAmuri/u7QfZiWOaDcrY76aij9/r6,SUBSCRIBER,dmitriy,petrov,dimapetrov@gmail.com

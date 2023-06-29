@@ -46,9 +46,8 @@ ___
 2. *The containers will now be running and connected to the **news-network**.*
 
 3. Get the documentation on the news management system by opening your web browser and clicking on the links:
-   <br/>
    >**News-service:**	[http://localhost:8080/swagger-ui/index.html#](http://localhost:8080/swagger-ui/index.html#/)
-   <br/>
+
    >**Users-service:**	[http://localhost:8081/swagger-ui/index.html#](http://localhost:8081/swagger-ui/index.html#/)
 
 ---
